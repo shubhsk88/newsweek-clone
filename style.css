@@ -50,3 +50,30 @@ body {
   background-color: var(--primary);
   height: 5rem;
 }
+.tag {
+  bottom: 0%;
+  left: 0%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem 3rem;
+  color: var(--primary);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.short {
+  flex: 0 0 30%;
+  padding: 1rem;
+  align-self: center;
+}
+.tag__images {
+  width: 35.7rem;
+  height: 35.7rem;
+}
+
+.tag__small {
+  bottom: 0;
+  left: 0;
+  padding: 0.1rem 3rem;
+  text-decoration: none;
+  background-color: #c2d4d7;
+}
