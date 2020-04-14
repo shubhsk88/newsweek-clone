@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary: #f72210;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  max-width: 100vw;
+  width: 70%;
+  /* margin: 0 auto; */
+  font-family: 'Bitter', serif;
+}
+
+.header {
+  background-color: var(--primary);
+
+  height: 10rem;
+}
+
+.header h1 {
+  font-size: 8rem;
+}
+
+.row .title-nav:hover {
+  color: var(--primary) !important;
+}
+
+.font-primary {
+  color: var(--primary);
+}
+
+.fa-search {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
