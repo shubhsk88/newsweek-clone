@@ -105,3 +105,10 @@ a {
 .background-button {
   background-color: var(--primary);
 }
+
+.subscribe-box {
+  width: 90%;
+  
+  height: 30rem;
+  background-color: #f4f5f6;
+}
