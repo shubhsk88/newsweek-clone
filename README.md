@@ -14,7 +14,7 @@ This website is built using bootstrap and used the utilities based function in b
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/shubhsk88/apple-website/310153633c1fce9f2979ccdc8db08fdd1482c19d/index.html)
+[Live Demo](https://rawcdn.githack.com/shubhsk88/newsweek-clone/8a5cd75a781d7eb3c202d0d54e209e002d985d74/index.html)
 
 ## Authors
 
