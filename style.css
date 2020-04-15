@@ -36,6 +36,9 @@ body {
   color: var(--primary) !important;
 }
 
+.headline:hover {
+  color: var(--primary) !important;
+}
 .font-primary {
   color: var(--primary);
 }
@@ -86,17 +89,25 @@ a {
 
 .author {
   right: 0;
-  width: 15%;
+  width: 4rem;
   bottom: -5rem;
 }
 
 .versus {
-  margin: 8rem 50%;
-}
-.versus h3 {
-  background-color: black;
+  width: 5rem;
+  margin: 8rem auto;
+  background-color: #000;
+  color: #9d9c91;
+  border-radius: 100%;
+
+  padding: 1rem;
+  text-align: center;
 }
 
+.stories:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--primary) !important;
+}
 .icon {
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) contain
     no-repeat;
@@ -117,7 +128,7 @@ a {
 }
 
 .newsletter-box {
-  width: 90%;
+  width: 100%;
   height: 30rem;
   background-color: white;
   box-shadow: -2px 9px 19px -9px rgba(0, 0, 0, 0.53);
