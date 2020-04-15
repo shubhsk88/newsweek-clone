@@ -24,7 +24,6 @@ body {
 
 .header {
   background-color: var(--primary);
-
   height: 10rem;
 }
 
@@ -39,6 +38,7 @@ body {
 .headline:hover {
   color: var(--primary) !important;
 }
+
 .font-primary {
   color: var(--primary);
 }
@@ -53,6 +53,7 @@ body {
   background-color: var(--primary);
   height: 5rem;
 }
+
 .tag {
   bottom: 0%;
   left: 0%;
@@ -72,9 +73,11 @@ body {
   width: 35.7rem;
   height: 35.7rem;
 }
+
 a {
   color: black;
 }
+
 .tag__small {
   bottom: 0;
   left: 0;
@@ -99,7 +102,6 @@ a {
   background-color: #000;
   color: #9d9c91;
   border-radius: 100%;
-
   padding: 1rem;
   text-align: center;
 }
@@ -120,10 +122,10 @@ a {
 
 .subscribe-box {
   width: 100%;
-
   height: 30rem;
   background-color: #f4f5f6;
 }
+
 .book__image {
   margin-left: -10rem;
 }
@@ -132,6 +134,7 @@ a {
   width: 20px;
   margin-right: 1rem;
 }
+
 .newsletter-box {
   width: 100%;
   height: 30rem;
@@ -142,7 +145,4 @@ a {
 
 .copyright {
   font-size: 1rem;
-}
-footer {
-  width: 100vw;
 }
