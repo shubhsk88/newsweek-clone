@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary: #f72210;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  max-width: 1200px;
+  width: 100%;
+  line-height: 1.2;
+  font-family: 'Bitter', serif;
+}
+
+.header {
+  background-color: var(--primary);
+  height: 10rem;
+}
+
+.header h1 {
+  font-size: 8rem;
+}
+
+.row .title-nav:hover {
+  color: var(--primary) !important;
+}
+
+.headline:hover {
+  color: var(--primary) !important;
+}
+
+.font-primary {
+  color: var(--primary);
+}
+
+.form-control {
+  font-size: 1.6rem;
+  border: none;
+  width: 10rem;
+  position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  right: 2%;
+  font-size: 1.6rem;
+  top: 40%;
+}
+
+.sticky-nav {
+  background-color: var(--primary);
+  height: 5rem;
+}
+
+.tag {
+  bottom: 0%;
+  left: 0%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem 3rem;
+  color: var(--primary);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.short {
+  flex: 0 0 30%;
+  padding: 0 1rem 0 0;
+  align-self: center;
+}
+
+.tag__images {
+  width: 35.7rem;
+  height: 35.7rem;
+}
+
+.button__article {
+  background-color: #f4f5f6;
+}
+
+.button__article:hover {
+  background-color: #dbdcdd;
+}
+
+a {
+  color: black;
+}
+
+.tag__small {
+  bottom: 0;
+  left: 0;
+  padding: 0.1rem 3rem;
+  text-decoration: none;
+  background-color: #c2d4d7;
+}
+
+.author {
+  right: 0;
+  width: 4rem;
+  bottom: -5rem;
+}
+
+.versus {
+  width: 5rem;
+  margin: 8rem auto;
+  background-color: #000;
+  color: #9d9c91;
+  border-radius: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stories:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--primary) !important;
+}
+
+.header__title {
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.background-button {
+  background-color: var(--primary);
+}
+
+.subscribe-box {
+  width: 100%;
+  height: 30rem;
+  background-color: #f4f5f6;
+}
+
+.book__image {
+  margin-left: -10rem;
+}
+
+.icon img {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.newsletter-box {
+  width: 100%;
+  height: 30rem;
+  background-color: white;
+  box-shadow: -2px 9px 19px -9px rgba(0, 0, 0, 0.53);
+  border: 1px solid rgb(214, 207, 207);
+}
+
+.copyright {
+  font-size: 1rem;
+}
+
+.h-30 {
+  height: 30rem;
+}

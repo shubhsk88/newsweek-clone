@@ -1,0 +1,1838 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://g.newsweek.com/themes/newsweek/favicons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <title>NewsWeek Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="mx-auto">
+    <!-- Header-Portion -->
+    <header
+      class="d-none d-lg-flex d-lg-block header justify-content-between align-items-end text-white"
+    >
+      <div class="mb-4 ml-3">
+        <a href="#" class="text-white outline-none text-decoration-none"
+          ><i class="fas fa-smog mr-2"></i> 31<sup>o</sup> Lucknow, IN
+          <i class="fa fa-chevron-right"></i
+        ></a>
+
+        <div class="pt-3">Tue, Apr 14, 2020</div>
+      </div>
+      <h1 class="font-weight-bold">NewsWeek</h1>
+      <div class="mb-4 mr-3 text-uppercase">
+        <a href="#" class="h4 text-white pr-2 text-decoration-none">Sign In</a>
+        <a
+          href="#"
+          class="h4 font-primary py-2 px-3 text-decoration-none bg-white"
+          >Subscribe <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </header>
+    <!-- Nav bar for main screen -->
+    <nav class="container-fluid d-none d-lg-block border-bottom nav-links">
+      <div class="row">
+        <ul class="col-lg nav d-lg-flex justify-content-between pt-2 mb-3">
+          <li class="py-1 pl-2">
+            <a href="#" class="text-body title-nav h3 text-decoration-none"
+              >US World</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >World</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Business</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Tech & Science</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2 title-nav">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Culture</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Newsgeek</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Sports</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Health</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >The Debate</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Vantage</a
+            >
+          </li>
+          <li class="border-left py-1 pl-2">
+            <a href="#" class="text-body h3 title-nav text-decoration-none"
+              >Weather</a
+            >
+          </li>
+          <li class="pl-1 d-flex">
+            <input
+              type="text"
+              placeholder="Search"
+              class="form-control "
+            /><i class="fas fa-search"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Sticky header -->
+    <nav class="navbar sticky-top md-navbar px-0 d-lg-none sticky-nav">
+      <div>
+        <a
+          class="header__title navbar-brand text-decoration-none text-white"
+          href="#"
+          >NewsWeek</a
+        >
+
+        <a
+          href="#"
+          class="d-md-inline-bslock d-none text-white outline-none text-decoration-none"
+          >31<sup>o</sup> Lucknow, IN</a
+        >
+      </div>
+      <div class="mb-1 mr-3 text-uppercase">
+        <a href="#" class="h4 text-white pr-2 text-decoration-none">Sign In</a>
+        <a
+          href="#"
+          class="h4 font-primary py-2 px-3 text-decoration-none bg-white"
+          >Subscribe <i class="fas fa-chevron-right"></i
+        ></a>
+        <a href="#" class="h4 pl-4 text-white pr-2 text-decoration-none"
+          ><i class="fas fa-bars"></i
+        ></a>
+      </div>
+    </nav>
+    <main class="container-fluid main-content mt-5">
+      <div class="row">
+        <!-- Featured Stories -->
+        <div class="col-lg col-md-5 features-stories">
+          <div class="mx-2">
+            <div class="p-2 mb- text-uppercase">Featured Stories</div>
+            <article class="mb-4 w-100">
+              <div class="position-relative">
+                <img src="https://bit.ly/34zoC9E" class="w-100" alt="Stories" />
+                <div class="tag position-absolute">U.S.</div>
+              </div>
+              <a href="#" class="stories text-decoration-none text-body"
+                ><h2 class="pt-4">
+                  New York Governor Cuomo Says He'd Defy Trump Ordering Him to
+                  Reopen State
+                </h2></a
+              >
+              <p>
+                If Trump ordering him to reopen meant endangering the public
+                health of his state, Cuomo said there'd be a constitutional
+                challenge that would go to the courts.
+              </p>
+            </article>
+            <article class="mb-4">
+              <div class="position-relative">
+                <img src="https://bit.ly/3cg4A6M" class="w-100" alt="Stories" />
+                <div class="tag position-absolute">Health</div>
+              </div>
+              <a href="#" class="stories text-decoration-none text-body"
+                ><h2 class="pt-4">
+                  Human Trials of Two Coronavirus Vaccines Start in China
+                </h2></a
+              >
+              <p>
+                There is currently no vaccine to prevent COVID-19.
+              </p>
+            </article>
+            <article class="mb-4">
+              <div class="position-relative">
+                <img src="https://bit.ly/2XBhUPd" class="w-100" alt="Stories" />
+                <div class="tag position-absolute">World</div>
+              </div>
+              <a href="#" class="stories text-decoration-none text-body"
+                ><h2 class="pt-4">
+                  North Korea Fires Suspected Cruise Missiles for First Time
+                  Since 2017
+                </h2></a
+              >
+              <p>
+                The rogue state has maintained regular weapons tests this year,
+                despite concerns over coronavirus and ongoing talks with the
+                U.S.
+              </p>
+            </article>
+            <article class="mb-4">
+              <div class="position-relative">
+                <img src="https://bit.ly/2XBhUPd" class="w-100" alt="Stories" />
+                <div class="tag position-absolute">World</div>
+              </div>
+              <a href="#" class="stories text-decoration-none text-body"
+                ><h2 class="pt-4">
+                  North Korea Fires Suspected Cruise Missiles for First Time
+                  Since 2017
+                </h2></a
+              >
+              <p>
+                The rogue state has maintained regular weapons tests this year,
+                despite concerns over coronavirus and ongoing talks with the
+                U.S.
+              </p>
+            </article>
+            <article class="mb-4">
+              <div class="position-relative">
+                <img src="https://bit.ly/2XBhUPd" class="w-100" alt="Stories" />
+                <div class="tag position-absolute">World</div>
+              </div>
+              <a href="#" class="stories text-decoration-none text-body"
+                ><h2 class="pt-4">
+                  North Korea Fires Suspected Cruise Missiles for First Time
+                  Since 2017
+                </h2></a
+              >
+              <p>
+                The rogue state has maintained regular weapons tests this year,
+                despite concerns over coronavirus and ongoing talks with the
+                U.S.
+              </p>
+            </article>
+
+            <article class="mb-4">
+              <div class="position-relative">
+                <img src="https://bit.ly/2XBhUPd" class="w-100" alt="Stories" />
+                <div class="tag position-absolute">World</div>
+              </div>
+              <a href="#" class="stories text-decoration-none text-body"
+                ><h2 class="pt-4">
+                  North Korea Fires Suspected Cruise Missiles for First Time
+                  Since 2017
+                </h2></a
+              >
+              <p>
+                The rogue state has maintained regular weapons tests this year,
+                despite concerns over coronavirus and ongoing talks with the
+                U.S.
+              </p>
+            </article>
+          </div>
+        </div>
+        <!-- Top-stories -->
+        <div class="col-lg-5 col-md-7 top-stories">
+          <div class="mx-1">
+            <div class="p-2 text-uppercase">Top Story</div>
+            <article class="mb-4 w-100">
+              <div class="position-relative">
+                <img src="https://bit.ly/2K6y5Mg" class="w-100" alt="Stories" />
+                <div class="tag position-absolute">News</div>
+              </div>
+              <a href="#" class="text-decoration-none text-body"
+                ><h2 class="pt-4">
+                  Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                  Since March
+                </h2></a
+              >
+              <p>
+                Lockdown measures in parts of the country's worst-hit regions,
+                including Lombardy and Emilia-Romagna, will remain in place.
+              </p>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+                <p>
+                  Lockdown measures in parts of the country's worst-hit regions,
+                  including Lombardy and Emilia-Romagna, will remain in place.
+                </p>
+              </div>
+            </article>
+            <div class="mt-5 p-1 text-uppercase">Heroes of pandemic</div>
+            <div class="row">
+              <div class="col-sm-12 col-md py-3">
+                <div class="position-relative">
+                  <img
+                    src="https://bit.ly/2yf7iuJ"
+                    class="w-100"
+                    alt="Pandemic"
+                  />
+                  <a href="#" class="tag__small position-absolute">Pandemic</a>
+                </div>
+                <div class="py-3">
+                  <a
+                    href="#"
+                    class="h3 py-4 px-1 text-body text-decoration-none"
+                    >Restauranteur Delivers Oranges to Hospital Workers Amid
+                    Coronavirus Crisis</a
+                  >
+                </div>
+                <p>
+                  "We all have to help each other," Matthew Fermin, owner of
+                  East Harlem restaurant Santiago's Beer Garden, told Newsweek.
+                </p>
+              </div>
+              <div class="col-sm-12 col-md py-3">
+                <div class="position-relative">
+                  <img
+                    src="https://bit.ly/2yf7iuJ"
+                    class="w-100"
+                    alt="Pandemic"
+                  />
+                  <a href="#" class="tag__small position-absolute">Pandemic</a>
+                </div>
+                <div class="py-3">
+                  <a
+                    href="#"
+                    class="h3 py-4 px-1 text-body text-decoration-none"
+                    >Restauranteur Delivers Oranges to Hospital Workers Amid
+                    Coronavirus Crisis</a
+                  >
+                </div>
+                <p>
+                  "We all have to help each other," Matthew Fermin, owner of
+                  East Harlem restaurant Santiago's Beer Garden, told Newsweek.
+                </p>
+              </div>
+              <div class="col-sm-12 col-md py-3">
+                <div class="position-relative">
+                  <img
+                    src="https://bit.ly/2yf7iuJ"
+                    class="w-100"
+                    alt="Pandemic"
+                  />
+                  <a href="#" class="tag__small position-absolute">Pandemic</a>
+                </div>
+                <div class="py-3">
+                  <a
+                    href="#"
+                    class="h3 py-4 px-1 text-body text-decoration-none"
+                    >Restauranteur Delivers Oranges to Hospital Workers Amid
+                    Coronavirus Crisis</a
+                  >
+                </div>
+                <p>
+                  "We all have to help each other," Matthew Fermin, owner of
+                  East Harlem restaurant Santiago's Beer Garden, told Newsweek.
+                </p>
+              </div>
+            </div>
+            <div class="mt-5 p-1 text-uppercase">Culture & Travel</div>
+            <div class="row">
+              <div class="col-sm-12 col-md py-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1580577/sunrise-behind-empire-state-building-new-york-city.webp?w=397&h=397&f=dee43d9664b5b2547300eac51bde967a"
+                    class="w-100"
+                    alt="Pandemic"
+                  />
+                  <a href="#" class="tag__small position-absolute">New York</a>
+                </div>
+                <div class="py-3">
+                  <a
+                    href="#"
+                    class="h3 py-4 px-1 text-body text-decoration-none"
+                    >The Relief of Uncertainty, Muses One New Yorker</a
+                  >
+                </div>
+                <p>
+                  In these pestilent days of being a New York City denizen
+                  during the age of COVID-19, one travel writer muses on what we
+                  can learn from the uncertainty of reality.
+                </p>
+              </div>
+              <div class="col-sm-12 col-md py-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1580577/sunrise-behind-empire-state-building-new-york-city.webp?w=397&h=397&f=dee43d9664b5b2547300eac51bde967a"
+                    class="w-100"
+                    alt="Pandemic"
+                  />
+                  <a href="#" class="tag__small position-absolute">New York</a>
+                </div>
+                <div class="py-3">
+                  <a
+                    href="#"
+                    class="h3 py-4 px-1 text-body text-decoration-none"
+                    >The Relief of Uncertainty, Muses One New Yorker</a
+                  >
+                </div>
+                <p>
+                  In these pestilent days of being a New York City denizen
+                  during the age of COVID-19, one travel writer muses on what we
+                  can learn from the uncertainty of reality.
+                </p>
+              </div>
+              <div class="col-sm-12 col-md py-3">
+                <div class="position-relative">
+                  <img
+                    src="https://d.newsweek.com/en/full/1580577/sunrise-behind-empire-state-building-new-york-city.webp?w=397&h=397&f=dee43d9664b5b2547300eac51bde967a"
+                    class="w-100"
+                    alt="Pandemic"
+                  />
+                  <a href="#" class="tag__small position-absolute">New York</a>
+                </div>
+                <div class="py-3">
+                  <a
+                    href="#"
+                    class="h3 py-4 px-1 text-body text-decoration-none"
+                    >The Relief of Uncertainty, Muses One New Yorker</a
+                  >
+                </div>
+                <p>
+                  In these pestilent days of being a New York City denizen
+                  during the age of COVID-19, one travel writer muses on what we
+                  can learn from the uncertainty of reality.
+                </p>
+              </div>
+            </div>
+            <div class="mt-5 p-1 text-uppercase">More Stories</div>
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+                <p>
+                  Lockdown measures in parts of the country's worst-hit regions,
+                  including Lombardy and Emilia-Romagna, will remain in place.
+                </p>
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+                <p>
+                  Lockdown measures in parts of the country's worst-hit regions,
+                  including Lombardy and Emilia-Romagna, will remain in place.
+                </p>
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+                <p>
+                  Lockdown measures in parts of the country's worst-hit regions,
+                  including Lombardy and Emilia-Romagna, will remain in place.
+                </p>
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+                <p>
+                  Lockdown measures in parts of the country's worst-hit regions,
+                  including Lombardy and Emilia-Romagna, will remain in place.
+                </p>
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+                <p>
+                  Lockdown measures in parts of the country's worst-hit regions,
+                  including Lombardy and Emilia-Romagna, will remain in place.
+                </p>
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+                <p>
+                  Lockdown measures in parts of the country's worst-hit regions,
+                  including Lombardy and Emilia-Romagna, will remain in place.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- Opinion -->
+        <div class="col-lg opinion">
+          <div class="mx-2">
+            <div class="p-2 text-uppercase">Opinion</div>
+            <article class="row py-2">
+              <div class="col-sm-1 col-lg-2 mr-4">
+                <img
+                  src="https://d.newsweek.com/en/full/1581448/kerry-brown.webp?w=63&h=63&f=a5ed56a548bd2007c3d6897dc38752d9"
+                  alt="Profile"
+                />
+              </div>
+              <div class="col-sm col-lg">
+                <a href="#" class="text-body text-decoration-none"
+                  ><h4 class="font-weight-bold">
+                    China Hawks Are Calling Coronavirus Their Smoking Gun. Don't
+                    Buy It
+                  </h4></a
+                >
+                <p class="text-uppercase pt-2">by Kerry Brown</p>
+              </div>
+            </article>
+            <hr />
+            <article class="row py-2">
+              <div class="col-sm-1 col-lg-2 mr-4">
+                <img
+                  src="https://d.newsweek.com/en/full/1581448/kerry-brown.webp?w=63&h=63&f=a5ed56a548bd2007c3d6897dc38752d9"
+                  alt="Profile"
+                />
+              </div>
+              <div class="col-sm col-lg">
+                <a href="#" class="text-body text-decoration-none"
+                  ><h4 class="font-weight-bold">
+                    China Hawks Are Calling Coronavirus Their Smoking Gun. Don't
+                    Buy It
+                  </h4></a
+                >
+                <p class="text-uppercase pt-2">by Kerry Brown</p>
+              </div>
+            </article>
+            <hr />
+
+            <article class="row py-2">
+              <div class="col-sm-1 col-lg-2 mr-4">
+                <img
+                  src="https://d.newsweek.com/en/full/1581448/kerry-brown.webp?w=63&h=63&f=a5ed56a548bd2007c3d6897dc38752d9"
+                  alt="Profile"
+                />
+              </div>
+              <div class="col-sm col-lg">
+                <a href="#" class="text-body text-decoration-none"
+                  ><h4 class="font-weight-bold">
+                    China Hawks Are Calling Coronavirus Their Smoking Gun. Don't
+                    Buy It
+                  </h4></a
+                >
+                <p class="text-uppercase pt-2">by Kerry Brown</p>
+              </div>
+            </article>
+            <hr />
+
+            <article class="row py-2">
+              <div class="col-sm-1 col-lg-2 mr-4">
+                <img
+                  src="https://d.newsweek.com/en/full/1581448/kerry-brown.webp?w=63&h=63&f=a5ed56a548bd2007c3d6897dc38752d9"
+                  alt="Profile"
+                />
+              </div>
+              <div class="col-sm col-lg">
+                <a href="#" class="text-body text-decoration-none"
+                  ><h4 class="font-weight-bold">
+                    China Hawks Are Calling Coronavirus Their Smoking Gun. Don't
+                    Buy It
+                  </h4></a
+                >
+                <p class="text-uppercase pt-2">by Kerry Brown</p>
+              </div>
+            </article>
+            <hr />
+
+            <div>
+              <div class="p-2 border-bottom border-warning text-uppercase">
+                The Debate
+              </div>
+              <div class="row my-4 position-relative">
+                <div class="col-2 col-lg-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1580915/store-closing.webp?w=397&h=265&f=ae04f5f87b7f8c783323a3a7c391d10c"
+                    alt="Article debate"
+                    class="w-100 pt-2"
+                  />
+                </div>
+                <div class="col col-lg">
+                  <a href="#"
+                    >Trump Is Empowering States—As He Should. Now It's Time to
+                    Put America to Work</a
+                  >
+                </div>
+
+                <img
+                  src="https://bit.ly/2ykroU7"
+                  class="author position-absolute"
+                  alt="Author"
+                />
+              </div>
+              <hr />
+              <hr />
+              <div class="text-uppercase">By <b> Kelly Ward</b></div>
+              <div class="versus"><h3>VS</h3></div>
+
+              <div class="row my-4 position-relative">
+                <div class="col-lg-4 col-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1580915/store-closing.webp?w=397&h=265&f=ae04f5f87b7f8c783323a3a7c391d10c"
+                    alt="Article debate"
+                    class="w-100 pt-2"
+                  />
+                </div>
+                <div class="col col-lg">
+                  <a href="#"
+                    >Trump Is Empowering States—As He Should. Now It's Time to
+                    Put America to Work</a
+                  >
+                </div>
+
+                <img
+                  src="https://bit.ly/2ykroU7"
+                  class="author position-absolute"
+                  alt="Author"
+                />
+              </div>
+              <hr />
+              <hr />
+              <div class="text-uppercase">By <b> Kelly Ward</b></div>
+            </div>
+            <div class="mt-5 p-1 h3 text-uppercase">Latest News</div>
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="headline text-decoration-none text-body"
+                  ><h4 class="font-weight-bold pt-2">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="headline text-decoration-none text-body"
+                  ><h4 class="font-weight-bold pt-2">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="headline text-decoration-none text-body"
+                  ><h4 class="pt-4 font-weight-bold">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="headline text-decoration-none text-body"
+                  ><h4 class="pt-4 font-weight-bold">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+              </div>
+            </article>
+
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="headline text-decoration-none text-body"
+                  ><h4 class="pt-4 font-weight-bold">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+              </div>
+            </article>
+            <hr />
+            <article class="mb-4 w-100 d-flex">
+              <div class="short">
+                <img
+                  src="https://bit.ly/2XCVmNJ"
+                  class="w-100 float-left"
+                  alt="Stories"
+                />
+              </div>
+              <div>
+                <a href="#" class="headline text-decoration-none text-body"
+                  ><h4 class="pt-4">
+                    Italy Reopens Some Shops, Sees Lowest Rise in Daily Deaths
+                    Since March
+                  </h4></a
+                >
+              </div>
+            </article>
+            <hr />
+          </div>
+          <div class="mx-4"></div>
+        </div>
+      </div>
+      <!-- In the magazine section -->
+      <div
+        class="mt-4 d-flex text-uppercase h3 justify-content-center align-items-center"
+      >
+        <span class="icon"
+          ><img
+            src="https://g.newsweek.com/themes/newsweek/favicons/favicon-96x96.png"
+            alt="logo"
+        /></span>
+        <span>In the Magazine</span>
+      </div>
+
+      <hr />
+      <div class="row mt-5">
+        <div class="col-md col-sm-12">
+          <div class="position-relative">
+            <img src="https://bit.ly/2K2idup" class="w-100" alt="Stories" />
+            <div class="tag position-absolute text-uppercase">
+              April 24 issue
+            </div>
+          </div>
+          <div class="w-100 button__article py-3 text-center">
+            <a
+              href="#"
+              class="text-uppercase text-decoration-none font-weight-bold"
+              >See All features <i class="fa fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-md col-sm-12 mt-2">
+          <img
+            class="w-100 pb-2 h-30"
+            src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
+            alt="News"
+          />
+
+          <div class="text-uppercase pt-2">
+            <a
+              href="#"
+              class="h4 text-white px-2 py-1 text-decoration-none background-button"
+              >Cover</a
+            >
+            <a
+              href="#"
+              class="h4 font-primary py-2 pr-4 text-decoration-none bg-white"
+              >News</a
+            >
+          </div>
+          <h3 class="py-2">
+            Who Should Doctors Save? Inside the Debate Over Rationing
+            Coronavirus Care
+          </h3>
+        </div>
+        <div class="col-md col-sm-12 mt-4">
+          <img
+            class="w-100 pb-2 h-30"
+            src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
+            alt="News"
+          />
+
+          <div class="text-uppercase pt-2">
+            <a
+              href="#"
+              class="h4 text-white px-2 py-1 text-decoration-none background-button"
+              >Cover</a
+            >
+            <a
+              href="#"
+              class="h4 font-primary py-2 pr-4 text-decoration-none bg-white"
+              >News</a
+            >
+          </div>
+          <h3 class="py-2">
+            Who Should Doctors Save? Inside the Debate Over Rationing
+            Coronavirus Care
+          </h3>
+        </div>
+        <div class="col-md col-sm-12 mt-4">
+          <img
+            class="w-100 pb-2 h-30"
+            src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
+            alt="News"
+          />
+
+          <div class="text-uppercase pt-2">
+            <a
+              href="#"
+              class="h4 text-white px-2 py-1 text-decoration-none background-button"
+              >Cover</a
+            >
+            <a
+              href="#"
+              class="h4 font-primary py-2 pr-4 text-decoration-none bg-white"
+              >News</a
+            >
+          </div>
+          <h3 class="py-2">
+            Who Should Doctors Save? Inside the Debate Over Rationing
+            Coronavirus Care
+          </h3>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md col-sm-12 mt-4">
+          <img
+            class="w-100 pb-2 h-30"
+            src="https://d.newsweek.com/en/full/1578291/cul-quibi.webp?w=466&h=311&q=90&f=3d787233940a2cbcf6d6fd4094755ba9"
+            alt="News"
+          />
+
+          <div class="text-uppercase pt-2">
+            <a
+              href="#"
+              class="h4 text-white px-2 py-1 text-decoration-none background-button"
+              >Cover</a
+            >
+            <a
+              href="#"
+              class="h4 font-primary py-2 pr-4 text-decoration-none bg-white"
+              >News</a
+            >
+          </div>
+          <h3 class="py-2">
+            Who Should Doctors Save? Inside the Debate Over Rationing
+            Coronavirus Care
+          </h3>
+        </div>
+        <div class="col-md col-sm-12 mt-4">
+          <img
+            class="w-100 pb-2 h-30"
+            src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
+            alt="News"
+          />
+
+          <div class="text-uppercase pt-2">
+            <a
+              href="#"
+              class="h4 text-white px-2 py-1 text-decoration-none background-button"
+              >Cover</a
+            >
+            <a
+              href="#"
+              class="h4 font-primary py-2 pr-4 text-decoration-none bg-white"
+              >News</a
+            >
+          </div>
+          <h3 class="py-2">
+            Who Should Doctors Save? Inside the Debate Over Rationing
+            Coronavirus Care
+          </h3>
+        </div>
+        <div class="col-md col-sm-12 mt-4">
+          <img
+            class="w-100 pb-2 h-30"
+            src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
+            alt="News"
+          />
+
+          <div class="text-uppercase pt-2">
+            <a
+              href="#"
+              class="h4 font-primary py-2 pr-4 text-decoration-none bg-white"
+              >Cover</a
+            >
+            <a
+              href="#"
+              class="h4 text-white px-2 py-1 text-decoration-none background-button"
+              >News</a
+            >
+          </div>
+          <h3 class="py-2">
+            Who Should Doctors Save? Inside the Debate Over Rationing
+            Coronavirus Care
+          </h3>
+        </div>
+        <div class="col-md col-sm-12 mt-4">
+          <img
+            class="w-100 pb-2 h-30"
+            src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86"
+            alt="News"
+          />
+
+          <div class="text-uppercase pt-2">
+            <a
+              href="#"
+              class="h4 text-white px-2 py-1 text-decoration-none background-button"
+              >Cover</a
+            >
+            <a
+              href="#"
+              class="h4 font-primary py-2 pr-4 text-decoration-none bg-white"
+              >News</a
+            >
+          </div>
+          <h3 class="py-2">
+            Who Should Doctors Save? Inside the Debate Over Rationing
+            Coronavirus Care
+          </h3>
+        </div>
+      </div>
+
+      <!-- Editor-Picks Section -->
+      <div class="mt-5 d-lg-flex justify-content-center align-items-center">
+        <span class="icon"
+          ><img
+            src="https://g.newsweek.com/themes/newsweek/favicons/favicon-96x96.png"
+            alt="logo"
+        /></span>
+        <span class="text-uppercase h3">Editor's Pick</span>
+      </div>
+      <hr />
+      <div class="row mt-4">
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+        <article class="col-lg-3 col-md-6">
+          <div class="position-relative">
+            <img src="https://bit.ly/2V6PgDL" class="w-100" alt="Stories" />
+            <div class="tag position-absolute">World</div>
+          </div>
+          <a href="#" class="text-decoration-none text-body"
+            ><h2 class="pt-4">
+              China Would Consider Debt Relief for Africa Over Coronavirus
+            </h2></a
+          >
+          <p>
+            African nations owe China, its banks and corporations some $143
+            billion, but are facing a recession due to the pandemic.
+          </p>
+        </article>
+      </div>
+      <hr />
+      <!-- Specific -->
+      <h3 class="font-primary mt-2 h2 font-weight-bold">U.S.</h3>
+      <div class="row mt-4">
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img src="https://bit.ly/2VueMlo" class="w-100" alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Florida Woman Withdrawing Stimulus Money Sees $8.5M in Her
+              Account</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img src="https://bit.ly/2VueMlo" class="w-100" alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Florida Woman Withdrawing Stimulus Money Sees $8.5M in Her
+              Account</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 mb-2 col-12">
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img src="https://bit.ly/2KcsAeZ" class="w-100" alt="Stories" />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Michael Che Pays Rent for Everyone in the Building his
+                  Grandmother Lived In
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img src="https://bit.ly/2KcsAeZ" class="w-100" alt="Stories" />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Michael Che Pays Rent for Everyone in the Building his
+                  Grandmother Lived In
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="w-100 d-flex">
+            <div class="short">
+              <img src="https://bit.ly/2KcsAeZ" class="w-100" alt="Stories" />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Michael Che Pays Rent for Everyone in the Building his
+                  Grandmother Lived In
+                </h4></a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr />
+      <h3 class="font-primary mt-2 h2 font-weight-bold">World</h3>
+      <div class="row mt-4">
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1582183/cocaine.webp?w=397&h=265&f=bc3db93fbc1f4e69d7f32653fecb7558"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Smugglers Hide 30 Pounds of Cocaine in Boxes of Protective Face
+              Masks</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1582069/captain-tom-moore-nhs.webp?w=397&h=265&f=c22c893a05c473da9d0579657643edb3"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Army Veteran, 99, Raises £12m For Hospitals Completing 100 Laps
+              Of Garden</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 mb-2 col-12">
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1582027/nhs-nurse-uniform.webp?w=95&h=95&l=0&t=0&f=8f310d87392ea7ca8e5f0466b3b89658"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Pregnant Nurse Dies From Coronavirus While Baby Is Delivered
+                  By C-section
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581977/who.webp?w=95&h=95&f=e7fe2806bcc0ecb3a700024395d75df7"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  American Nurses Association Calls Decision to Halt WHO Funding
+                  'Misguided'
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581852/coronavirus-japan.webp?w=95&h=95&f=7d2abdc55183f8933686b49678cfa15b"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Japan Warns 400,000 Could Die From COVID-19 Without Social
+                  Distancing
+                </h4></a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr />
+      <h3 class="font-primary mt-2 h2 font-weight-bold">Business</h3>
+      <div class="row mt-4">
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1581456/world-economy-recession-prediction-imf.webp?w=397&h=265&f=253cf2b07f0f94a41461f619dd0768d2"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1581456/world-economy-recession-prediction-imf.webp?w=397&h=265&f=253cf2b07f0f94a41461f619dd0768d2"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 mb-2 col-12">
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581297/apple-watches.webp?w=95&h=95&f=2b235856e7fd376250fc8a51e764113c"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  NFL 'Virtual Offseason' Would Allow Teams to Send Apple
+                  Watches To Players
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581297/apple-watches.webp?w=95&h=95&f=2b235856e7fd376250fc8a51e764113c"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  NFL 'Virtual Offseason' Would Allow Teams to Send Apple
+                  Watches To Players
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581297/apple-watches.webp?w=95&h=95&f=2b235856e7fd376250fc8a51e764113c"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  NFL 'Virtual Offseason' Would Allow Teams to Send Apple
+                  Watches To Players
+                </h4></a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr />
+      <h3 class="font-primary mt-2 h2 font-weight-bold">Tech & Science</h3>
+      <div class="row mt-4">
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1582067/apple-iphone-se.webp?w=397&h=265&f=1d6c90a390cdb46e59db96b8fbafd3ae"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Apple iPhone SE 2020 Price, Specs, Release Date and First
+              Impressions</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1582067/apple-iphone-se.webp?w=397&h=265&f=1d6c90a390cdb46e59db96b8fbafd3ae"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Apple iPhone SE 2020 Price, Specs, Release Date and First
+              Impressions</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 mb-2 col-12">
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581697/half-moon.webp?w=95&h=95&f=ebc1f2f0f0ad39a5ed12b832eca7ae48"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Moon Comes in Near Alignment With Jupiter, Saturn and Mars
+                  This Week
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581697/half-moon.webp?w=95&h=95&f=ebc1f2f0f0ad39a5ed12b832eca7ae48"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Moon Comes in Near Alignment With Jupiter, Saturn and Mars
+                  This Week
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1581697/half-moon.webp?w=95&h=95&f=ebc1f2f0f0ad39a5ed12b832eca7ae48"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Moon Comes in Near Alignment With Jupiter, Saturn and Mars
+                  This Week
+                </h4></a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr />
+      <h3 class="font-primary mt-2 h2 font-weight-bold">Culture</h3>
+      <div class="row mt-4">
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1571628/baby-yoda.webp?w=397&h=265&f=9a034c854b57014ff1c9ec58ac8ac1eb"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Everything You Need to Know About 'The Mandalorian'
+              Documentary</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1571628/baby-yoda.webp?w=397&h=265&f=9a034c854b57014ff1c9ec58ac8ac1eb"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >Everything You Need to Know About 'The Mandalorian'
+              Documentary</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 mb-2 col-12">
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1582150/mrs-america-phyllis-schlafly.webp?w=95&h=95&f=896777368dadc186a65c2dcd38140bf3"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  'Mrs. America' on Hulu: The True Story of Phyllis Schlafly
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1582150/mrs-america-phyllis-schlafly.webp?w=95&h=95&f=896777368dadc186a65c2dcd38140bf3"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  'Mrs. America' on Hulu: The True Story of Phyllis Schlafly
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1582150/mrs-america-phyllis-schlafly.webp?w=95&h=95&f=896777368dadc186a65c2dcd38140bf3"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  'Mrs. America' on Hulu: The True Story of Phyllis Schlafly
+                </h4></a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr />
+      <h3 class="font-primary mt-2 h2 font-weight-bold">Sports</h3>
+      <div class="row mt-4">
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1582113/michael-jordan-chicago-bulls.webp?w=397&h=265&f=e1627ad3ca66a4c39cd0c46378e90166"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >MJ Skipped White House Visit to Play Golf with Man Who Was Later
+              Convicted</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <a href="#"
+            ><img
+              src="https://d.newsweek.com/en/full/1582113/michael-jordan-chicago-bulls.webp?w=397&h=265&f=e1627ad3ca66a4c39cd0c46378e90166"
+              class="w-100"
+              alt="tags"
+          /></a>
+          <div class="py-4">
+            <a href="#" class="h2 py-4 stories text-decoration-none text-body"
+              >MJ Skipped White House Visit to Play Golf with Man Who Was Later
+              Convicted</a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 mb-2 col-12">
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1582060/brian-allen-los-angeles-rams.webp?w=95&h=95&f=5c88127a83a8bfa77e5ed77d6709e2a4"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Rams' Brian Allen Becomes First NFL Player to Test Positive
+                  for COVID-19
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="mb-3 w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1582060/brian-allen-los-angeles-rams.webp?w=95&h=95&f=5c88127a83a8bfa77e5ed77d6709e2a4"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Rams' Brian Allen Becomes First NFL Player to Test Positive
+                  for COVID-19
+                </h4></a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="w-100 d-flex">
+            <div class="short">
+              <img
+                src="https://d.newsweek.com/en/full/1582060/brian-allen-los-angeles-rams.webp?w=95&h=95&f=5c88127a83a8bfa77e5ed77d6709e2a4"
+                class="w-100"
+                alt="Stories"
+              />
+            </div>
+            <div>
+              <a href="#" class="headline text-decoration-none text-body"
+                ><h4 class="font-weight-bold pt-2">
+                  Rams' Brian Allen Becomes First NFL Player to Test Positive
+                  for COVID-19
+                </h4></a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Subscribe  and Newsletter section  -->
+      <div class="row my-4">
+        <div class="col-lg-8 col-md-12">
+          <h3 class="text-uppercase font-primary p-2 pt-5">Subscribe</h3>
+          <div class="subscribe-box p-5">
+            <div class="row">
+              <div class="col-4 d-flex">
+                <img
+                  src="https://bit.ly/3aaX3Vl"
+                  alt="Book image"
+                  class="w-75"
+                />
+                <img
+                  src="https://bit.ly/3co93EK"
+                  alt="Books"
+                  class="w-75 book__image py-2"
+                />
+              </div>
+              <div class="col d-flex flex-column mt-3 mx-2">
+                <div class="h2 py-3">
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </div>
+                <div class="py-3">
+                  <div>All Access + Weekly Delivery.</div>
+                  Choose A Membership That's Perfect for You!
+                </div>
+                <div class="py-4">
+                  <a
+                    href="#"
+                    class="h4 text-white px-4 py-3 text-uppercase text-decoration-none background-button"
+                    >Subscribe <i class="fas fa-chevron-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h3 class="text-uppercase font-primary p-2 pt-5">Newsletter</h3>
+          <div class="newsletter-box">
+            <div class="row h-100">
+              <div class="col">
+                <img
+                  src="https://bit.ly/2RGmKqy"
+                  alt="NewsLetter"
+                  class="w-100 h-100"
+                />
+              </div>
+              <div class="col d-flex flex-column mt-5">
+                <div class="h2 w-80 py-3">
+                  The Starting 5
+                </div>
+                <div class="py-3">
+                  See why nearly a quarter of a million subscribers begin their
+                  day with the Starting 5.
+                </div>
+                <div class="py-4">
+                  <a
+                    href="#"
+                    class="h4 text-white px-4 py-3 text-uppercase text-decoration-none background-button"
+                    >Sign Up <i class="fas fa-chevron-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </main>
+
+    <!-- Footer Section  -->
+    <footer class="mt-4 container-fluid">
+      <div
+        class="row d-flex flex-md-row flex-lg-row align-items-end my-3 align-items-sm-start flex-sm-column justify-content-between"
+      >
+        <div class="d-flex col-lg-8 col-sm-12 col-md-6 ml-2">
+          <h1 class="font-primary h1 font-weight-bold">NewsWeek</h1>
+          <p class="align-self-end copyright ml-2">© 2020 NEWSWEEK</p>
+        </div>
+        <div
+          class="d-flex col-lg-2 col-sm-4 ml-3 col-md-3 justify-content-between"
+        >
+          <a href="#"
+            ><i class="fab text-secondary h2 fa-facebook-square"></i
+          ></a>
+          <a href="#"><i class="fab h2 text-secondary fa-twitter"></i></a>
+          <a href="#"
+            ><i class="fab h2 text-secondary fa-instagram-square"></i
+          ></a>
+          <a href="#"><i class="fab h2 text-secondary fa-tumblr"></i></a>
+          <a href="#"><i class="fab h2 text-secondary fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <hr />
+
+      <div class="my-3 ml-2 d-flex align-items-center">
+        <h3>Editions:</h3>
+        <ul class="ml-2 mb-2 nav">
+          <li class="pl-2 ml-2 border-left">
+            <a class="text-secondary" href="#">English</a>
+          </li>
+          <li class="pl-2 ml-2 border-left">
+            <a class="text-secondary" href="#">Chinese</a>
+          </li>
+          <li class="pl-2 ml-2 border-left">
+            <a class="text-secondary" href="#">Pakistan</a>
+          </li>
+          <li class="pl-2 ml-2 border-left">
+            <a class="text-secondary" href="#">Polska</a>
+          </li>
+          <li class="pl-2 ml-2 border-left">
+            <a class="text-secondary" href="#">Romania</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="my-2 ml-2 nav">
+        <li class="mb-3">
+          <a class="text-secondary" href="#">About us</a>
+        </li>
+        <li class="px-2 mb-3 ml-2 border-left">
+          <a class="text-secondary" href="#">Correction</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Contact Us</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Editor Guidlines</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Advertise</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Copyright</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Term & Conditions</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Privacy Policy</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Cookies</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Terms of Sale</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Archive</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Announcements</a>
+        </li>
+        <li class="px-2 ml-2 mb-3 border-left">
+          <a class="text-secondary" href="#">Consent References</a>
+        </li>
+      </ul>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
