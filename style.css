@@ -66,13 +66,20 @@ body {
 
 .short {
   flex: 0 0 30%;
-  padding: 0rem 1rem;
+  padding: 0 1rem 0 0;
   align-self: center;
 }
 
 .tag__images {
   width: 35.7rem;
   height: 35.7rem;
+}
+
+.button__article {
+  background-color: #f4f5f6;
+}
+.button__article:hover {
+  background-color: #dbdcdd;
 }
 
 a {
@@ -142,4 +149,8 @@ a {
 
 .copyright {
   font-size: 1rem;
+}
+
+.h-30 {
+  height: 30rem;
 }
