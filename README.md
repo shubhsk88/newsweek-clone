@@ -3,7 +3,7 @@
 This is a copy of the Newsweek Landing page
 This website is built using bootstrap and used the utilities based function in bootstrap
 
-![screenshot](https://github.com/shubhsk88/newsweek-clone/blob/features/screenshot.png)
+![screenshot](https://github.com/shubhsk88/newsweek-clone/blob/master/screenshot.png)
 
 ## Built With
 
